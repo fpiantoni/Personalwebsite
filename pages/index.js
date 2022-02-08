@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Marcos Lozada Freytes</title>
+        <title>Francisco Piantoni Vera</title>
         <Favicons />
       </Head>
       <header className=''></header>
@@ -24,13 +24,13 @@ export default function Home() {
               <div className='flex items-center'>
                 <img
                   className='h-16 w-16 rounded-full mr-4 shadow-lg border border-white'
-                  src='/images/marcoslozada.jpg'
+                  src='/images/franciscoPiantoni.jpeg'
                   alt=''
                   width={300}
                   height={300}
                 />
                 <h3 className='text-lg leading-none font-medium text-gray-900 dark:text-white dark:text-white'>
-                  Marcos Lozada Freytes
+                Francisco Piantoni Vera
                 </h3>
               </div>
             </div>
@@ -41,18 +41,19 @@ export default function Home() {
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
                   <dt className='text-sm font-medium text-gray-400'>E-mail</dt>
                   <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2'>
-                  marcos.lozada@ucc.edu.ar | marcos@baas256.com | marcoslozadaf@gmail.com
+                  fran@piantoni.com.ar | francisco@baas256.com 
                   </dd>
                 </div>
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
                   <dt className='text-sm font-medium text-gray-400'>Profession</dt>
                   <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2'>
-                  Systems Engineer. Co-Founder at Baas256 | Balloon Dapp. Blockchain Professor at Catholic University of Córdoba
+                  Software Engineer student. Head of Tech at Baas256 |  Builder | Maker | Forward-Thinker
                   </dd>
                 </div>
                 <div className='py-2 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6'>
                   <dt className='text-sm font-medium text-gray-400'>Experience</dt>
                   <dd className='mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2'>
+                
                     <span className='inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1'>
                       Blockchain Development
                     </span>
@@ -63,13 +64,13 @@ export default function Home() {
                       Project Management 
                     </span>
                     <span className='inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1'>
-                      Data Science
+                      Backend
                     </span>
                     <span className='inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1'>
                       Full Stack Web Development 
                     </span>
                     <span className='inline-flex items-center px-2.5 py-0.5 rounded-md text-sm font-medium bg-gray-100 dark:bg-black text-gray-800 mr-3 dark:text-white mb-1'>
-                      Test Automation 
+                      Web3 Advocate
                     </span>
                   </dd>
                 </div>
@@ -120,6 +121,13 @@ export default function Home() {
 
 const techStack = [
   {
+    name: 'Solidity',
+    logo: '/images/tech-stack/Solidity-Logo.wine.svg',
+    height: 48,
+    width: 55,
+    docs: 'https://docs.soliditylang.org/en/v0.8.11/',
+  },
+  {
     name: 'Javascript',
     logo: '/images/tech-stack/javascript.svg',
     height: 48,
@@ -137,19 +145,26 @@ const techStack = [
     name: 'expressJS',
     logo: '/images/tech-stack/expressjs.svg',
     height: 48,
-    width: 100,
+    width: 60,
     docs: 'https://expressjs.com/en/4x/api.html',
   },
   {
     name: 'MongoDB',
-    logo: '/images/tech-stack/mongodb.svg',
+    logo: '/images/tech-stack/MongoDB-Logo.wine.svg',
     height: 48,
     width: 150,
     docs: 'https://docs.mongodb.com/drivers/node/current/',
   },
   {
+    name: 'PostgreSQL',
+    logo: '/images/tech-stack/PostgreSQL-Logo.wine.svg',
+    height: 48,
+    width: 45,
+    docs: 'https://www.postgresql.org/docs/',
+  },
+  {
     name: 'React',
-    logo: '/images/tech-stack/react.svg',
+    logo: '/images/tech-stack/React_(web_framework)-Logo.wine.svg',
     height: 48,
     width: 55,
     docs: 'https://reactjs.org/docs/getting-started.html',
@@ -161,32 +176,43 @@ const techStack = [
     width: 55,
     docs: 'https://nextjs.org/docs',
   },
+  {
+    name: 'Apache',
+    logo: '/images/tech-stack/Apache_HTTP_Server-Logo.wine.svg',
+    height: 48,
+    width: 85,
+    docs: 'https://httpd.apache.org/docs/',
+  },
+  {
+    name: 'Nginx',
+    logo: '/images/tech-stack/Nginx-Logo.wine.svg',
+    height: 48,
+    width: 55,
+    docs: 'https://nginx.org/en/docs/',
+  },
+  {
+    name: 'Digital Ocean',
+    logo: '/images/tech-stack/DigitalOcean-Logo.wine.svg',
+    height: 48,
+    width: 55,
+    docs: 'https://docs.digitalocean.com/',
+  },
 ];
 
 const social = [
   {
     name: 'GitHub',
-    href: 'https://github.com/marcoslozadaf',
+    href: 'https://github.com/fpiantoni',
     icon: iconGithub,
   },
   {
     name: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/marcoslozadafreytes/',
+    href: 'https://www.linkedin.com/in/francisco-piantoni-vera-b6b081128/',
     icon: iconLinkedIn,
   },
   {
     name: 'Instagram',
-    href: 'https://instagram.com/marcoslozada',
+    href: 'https://www.instagram.com/franpiantoni99/',
     icon: iconInstagram,
-  },
-  {
-    name: 'Twitter',
-    href: 'https://twitter.com/marcoslozadaf',
-    icon: iconTwitter,
-  },
-  {
-    name: 'Facebook',
-    href: 'https://www.facebook.com/marcoslozadaf',
-    icon: iconFacebook,
   },
 ];
