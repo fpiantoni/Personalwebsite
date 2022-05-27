@@ -24,7 +24,7 @@ export default function Home() {
               <div className='flex items-center'>
                 <img
                   className='h-16 w-16 rounded-full mr-4 shadow-lg border border-white'
-                  src='/images/ProfilePicture.png'
+                  src='images/ProfilePicture.jpeg'
                   alt=''
                   width={300}
                   height={300}
