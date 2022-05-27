@@ -26,8 +26,8 @@ export default function Home() {
                   className='h-16 w-16 rounded-full mr-4 shadow-lg border border-white'
                   src='/images/ProfilePicture.png'
                   alt=''
-                  width={400}
-                  height={400}
+                  width={300}
+                  height={300}
                 />
                 <h3 className='text-lg leading-none font-medium text-gray-900 '>
                 Francisco Piantoni Vera
